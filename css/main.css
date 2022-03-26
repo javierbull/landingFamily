@@ -40,6 +40,39 @@ main {
   -ms-interpolation-mode: nearest-neighbor;
 }
 
+/* Buttons */
+.btn {
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  font-family: 'Merriweather', serif;
+  padding: .75rem 1.5rem;
+  border-radius: 0;
+}
+
+.btn-large {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.primary-btn {
+  background-color: var(--secondary);
+  color: var(--white);
+}
+
+.primary-btn:hover {
+  background-color: var(--secondary-light);
+  color: var(--white);
+}
+
+.primary-btn:focus {
+  color: #fff;
+  background-color: var(--secondary);
+  border-color: var(--secondary-ligth);
+  box-shadow: 0 0 0 0.25rem rgba(193, 19, 116, 0.4);
+  outline: none;
+}
+/* End buttons */
+
 /* FIN ESTILOS GENERALES */
 
 /* Header */
@@ -48,7 +81,7 @@ main {
   background-image:
   url("../img/banner/bg-flowers.png"),
   linear-gradient(to top right, #c4c4c4 , white 30%);
-  background-position: bottom left, bottom left;
+  background-position: top left, bottom left;
   background-repeat: no-repeat;
   background-size: auto;
 }
@@ -115,7 +148,47 @@ main {
   text-align: center;
 }
 
-
-
-
 /* Fin header */
+
+.wrap-section-brands {
+  background-color: var(--primary);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.brand-card {
+  /* width: 20rem; */
+  margin-bottom: 3rem;
+}
+
+.brand-card-top {
+  background-color: var(--primary);
+}
+
+.brand-card-top .tag-brand {
+  background-color: var(--white);
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-card-top .tag-brand img {
+  min-height: 2.5rem;
+  max-height: 2.5rem;
+}
+
+.brand-card-top-product  {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.brand-card-bottom {
+  background-color: var(--white);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
