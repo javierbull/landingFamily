@@ -1,3 +1,4 @@
+/* ESTILOS GENERALES */
 :root {
   /* Gray scale */
   --black: #000000;
@@ -26,3 +27,45 @@ body {
 .font-btn {
   font-family: 'Merriweather', serif;
 }
+
+main {
+  background-color: lavender;
+  min-height: 100vh;
+}
+
+.render-img {
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  -ms-interpolation-mode: nearest-neighbor;
+}
+
+/* FIN ESTILOS GENERALES */
+
+/* Header */
+.header-top {
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.header-top-img {
+  background-color: salmon;
+  min-height: 6.25rem;
+  min-width: 6.25rem;
+  max-height: 6.25rem;
+  max-width: 6.25rem;
+  margin-right: 2rem;
+}
+
+.header-top-text h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--primary);
+}
+
+
+/* Fin header */
