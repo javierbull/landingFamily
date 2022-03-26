@@ -163,7 +163,7 @@ main {
 
 .brand-card {
   background-color: greenyellow;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
 }
 
 .brand-card-top {
@@ -198,13 +198,17 @@ main {
   align-items: center;
 }
 
+.brand-card-bottom-text {
+  font-size: 1.25rem;
+}
+
 /* End product section */
 
 /* Footer */
 
 footer {
-  padding-top: 1.5rem;
-  padding-bottom: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   display: flex;
 }
 
