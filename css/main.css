@@ -45,14 +45,16 @@ main {
 /* Header */
 
 .bg-header {
-  background-image: url("../img/banner/bg-banner.png");
-  background-position: top left;
+  background-image:
+  url("../img/banner/bg-flowers.png"),
+  linear-gradient(to top right, #c4c4c4 , white 30%);
+  background-position: bottom left, bottom left;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
 }
 
 .header-top {
-  background-color: pink;
+  /* background-color: pink; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,7 +62,7 @@ main {
 }
 
 .header-top-img {
-  background-color: salmon;
+  /* background-color: salmon; */
   min-height: 6.25rem;
   min-width: 6.25rem;
   max-height: 6.25rem;
@@ -76,13 +78,13 @@ main {
 }
 
 .header-bottom {
-  background-color: lightyellow;
+  /* background-color: lightyellow; */
   padding-top: .5rem;
   padding-bottom: 3.5rem;
 }
 
 .header-bottom-img {
-  background-color: lightblue;
+  /* background-color: lightblue; */
   width: 20rem;
   margin-left: auto;
   margin-right: auto;
