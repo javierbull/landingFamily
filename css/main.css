@@ -1,4 +1,25 @@
+:root {
+  /* Gray scale */
+  --black: #000000;
+  --text: #343A40;
+  --white: #FFF;
+  /* Foundations */
+  --primary: #204398;
+  --secondary: #C11374;
+  --secondary-light: #DF3C97;
+  --accent: #AC6024;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
+  background-color: var(--white);
+  color: var(--text);
+  font-size: 16px;
   font-family: 'Nunito', sans-serif;
 }
 
