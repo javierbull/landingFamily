@@ -43,12 +43,20 @@ main {
 /* FIN ESTILOS GENERALES */
 
 /* Header */
+
+.bg-header {
+  background-image: url("../img/banner/bg-banner.png");
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .header-top {
   background-color: pink;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem 0;
+  padding: 2rem 0 .5rem 0;
 }
 
 .header-top-img {
