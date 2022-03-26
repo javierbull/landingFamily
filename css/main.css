@@ -29,7 +29,7 @@ body {
 }
 
 main {
-  background-color: lavender;
+  /* background-color: lavender; */
   min-height: 100vh;
 }
 
@@ -158,12 +158,12 @@ main {
 }
 
 .bg-row-products {
-  background-color: lavender;
+  /* background-color: lavender; */
 }
 
 .brand-card {
-  background-color: greenyellow;
-  margin-bottom: 1.5rem;
+  /* background-color: greenyellow; */
+  margin-bottom: 3rem;
 }
 
 .brand-card-top {
@@ -184,20 +184,20 @@ main {
 }
 
 .brand-card-top-product  {
-  padding: 1rem;
+  padding: .5rem;
   display: flex;
   justify-content: center;
   width: auto;
 }
 
 .brand-card-top-product img  {
-  background-color: peru;
+  /* background-color: peru; */
 
 }
 
 .brand-card-bottom {
-  /* background-color: var(--white); */
-  padding: 1.5rem;
+  background-color: var(--white);
+  padding: 1.2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
