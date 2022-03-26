@@ -150,14 +150,19 @@ main {
 
 /* Fin header */
 
+/* Product section */
 .wrap-section-brands {
   background-color: var(--primary);
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 5rem;
+}
+
+.bg-row-products {
+  background-color: lavender;
 }
 
 .brand-card {
-  /* width: 20rem; */
+  background-color: greenyellow;
   margin-bottom: 3rem;
 }
 
@@ -185,10 +190,58 @@ main {
 }
 
 .brand-card-bottom {
-  background-color: var(--white);
+  /* background-color: var(--white); */
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
+/* End product section */
+
+/* Footer */
+
+footer {
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
+  display: flex;
+}
+
+.footer-logo {
+  /* background: pink; */
+  margin-right: 2rem;
+}
+
+.footer-text {
+  font-size: 1.25rem;
+}
+
+.footer-text-title {
+  color: var(--primary);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.footer-contact-list {
+  /* background-color: yellow; */
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-contact-list p {
+  font-weight: 600;
+  margin-bottom: .5rem;
+}
+
+.footer-contact-list li {
+  /* background-color: pink; */
+  display: flex;
+  align-items: center;
+}
+
+.footer-contact-list li span {
+  margin-right: .5rem;
+}
+
+/* end footer */
