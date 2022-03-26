@@ -47,5 +47,9 @@
     margin-right: 1rem;
   }
 
+  .header-bottom-img p {
+    left: 0;
+  }
+
   /* End Header */
 }
