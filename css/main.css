@@ -152,8 +152,14 @@ main {
 
 /* Product section */
 
+.section-catalogue {
+  background-color: var(--primary);
+  padding-bottom: 5rem;
+}
+
 .card-brand {
   background-color: var(--primary);
+  padding-top: 2rem;
 }
 
 .align-left {
