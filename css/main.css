@@ -29,7 +29,7 @@ body {
 }
 
 main {
-  /* background-color: lavender; */
+  background-color: lavender;
   min-height: 100vh;
 }
 
@@ -153,7 +153,7 @@ main {
 /* Product section */
 
 .card-brand {
-  background-color: var(--primaryr);
+  background-color: var(--primary);
 }
 
 .align-left {
@@ -178,7 +178,7 @@ main {
 }
 
 .content-img-card {
-  background-color: lavender;
+  /* background-color: lavender; */
   width: 22rem;
 }
 
@@ -189,6 +189,13 @@ main {
 
 .card-footer {
   background-color: var(--white);
+  border-radius: none;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.card-footer:last-child {
+    border-radius: 0;
 }
 
 .card-text {
@@ -205,6 +212,7 @@ main {
   padding: 0 !important;
   -webkit-line-clamp: 2;
   height: calc(1em * 1.2 * 2);
+  font-size: 1.25rem;
 }
 
 .content-btn-card {
